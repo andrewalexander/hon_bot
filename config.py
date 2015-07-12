@@ -1,0 +1,2 @@
+username = "name"
+subreddit = "subreddit"
