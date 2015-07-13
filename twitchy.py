@@ -150,7 +150,6 @@ class livestreams():
 
 		try:
 			data = requests.get(api_link).json()
-			print data
 			if data["_total"] > 0:
 				self.parse_stream_info(data)
 			else:
